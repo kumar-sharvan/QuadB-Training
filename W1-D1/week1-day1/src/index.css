@@ -1,0 +1,61 @@
+/* Skills Section */
+.section-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+/* Skill Cards */
+.skill-card {
+  background: #000;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(23, 195, 178, 0.5);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.skill-card:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 20px rgba(23, 195, 178, 0.8);
+}
+
+/* Skill Logos */
+.skill-logo {
+  width: 50px;
+  height: 50px;
+}
+
+/* project component */
+.project-card {
+  border-radius: 15px;
+  padding: 20px;
+  background-color: #2aa483; /* Teal Color */
+}
+
+.project-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.tech-stack .badge {
+  font-size: 14px;
+  padding: 5px 10px;
+}
+
+.project-icons button {
+  width: 40px;
+  height: 40px;
+}
+
+/* hover classes in navbar */
+/* Custom hover colors */
+.nav-link.hover-primary:hover {
+  color: #0d6efd !important; /* Bootstrap primary color */
+}
+
+.nav-link.hover-success:hover {
+  color: #198754 !important; /* Bootstrap success color */
+}
+
+/* Or create your own custom color */
+.nav-link.hover-custom:hover {
+  color: #ff6b6b !important;
+}
